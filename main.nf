@@ -1,6 +1,6 @@
-include { MULTIPLICATE } from './modules/example1/workflows/example1'
+include { MULTIPLICATE } from './example-module-1//workflows/example1'
 include { MULTIPLICATE45 } from './workflows/example2'
-include { Duplicate; Triplicate } from "./modules/example1/modules/example1"
+include { Duplicate; Triplicate } from "./example-module-1//modules/example1"
 
 workflow  {
     MULTIPLICATE45(params.filelist)
