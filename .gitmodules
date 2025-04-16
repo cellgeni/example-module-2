@@ -1,3 +1,6 @@
 [submodule "modules/example1"]
 	path = modules/example1
 	url = https://github.com/cellgeni/example-module-1
+[submodule "example-module-1"]
+	path = example-module-1
+	url = https://github.com/cellgeni/example-module-1
