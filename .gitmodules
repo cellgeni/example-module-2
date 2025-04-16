@@ -1,0 +1,3 @@
+[submodule "modules/example1"]
+	path = modules/example1
+	url = https://github.com/cellgeni/example-module-1
